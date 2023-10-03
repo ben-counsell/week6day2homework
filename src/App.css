@@ -1,0 +1,46 @@
+body {
+  background-color: #1e1e1e;
+  color: white;
+  font-family: arial;
+  margin: 0% 20%;
+}
+
+hr {
+  color: #de4dff;
+  width: 100%
+}
+
+.film {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: .2s;
+}
+
+a:hover {
+  color: #de4dff;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: #1e1e1e;
+  color: white;
+  border: 1px solid transparent;
+  transition: .2s ease-in-out;
+}
+
+button:hover {
+  border: 1px solid #de4dff;
+  color: #de4dff
+}
